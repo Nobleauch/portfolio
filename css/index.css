@@ -856,6 +856,25 @@ body {
     text-decoration: underline;
 }
 
+.section6 {
+    max-width: 120rem;
+    max-height: 60rem;
+}
+
+.section6 .grid-destop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+}
+
+.section6 .grid-destop .item1 {
+    background-image: url(/images/section6a.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 640px;
+    height: 400px;
+}
+
 
 /* mobile view */
 @media screen and (max-width:740px) {
